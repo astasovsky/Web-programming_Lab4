@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Програма обчислення суми двох цілих чисел</title>
+</head>
+
+<body>
+    <SCRIPT LANGUAGE="JavaScript">
+        var firstNumber, // перший рядок, уведений користувачем
+            secondNumber, // другий рядок, уведений користувачем
+            number1, // перший доданок
+            number2, // другий доданок
+            sum; // сума чисел numberl і number2
+        // читання першого, введеного користувачем числа у формі рядка
+        firstNumber = window.prompt("Уведіть перше ціле число", "0");
+        // читання другого, введеного користувачем числа у формі рядка
+        secondNumber = window.prompt("Уведіть друге ціле число ", "0");
+        // перетворення даних із строкового типу до цілого типу,
+        numberl = parseInt(firstNumber);
+        number2 = parseInt(secondNumber);
+        // обчислення суми двох чисел
+        sum = numberl + number2;
+        // висновок отриманого результату
+        document.writeln("<h1>Сума чисел дорівнює " + sum + "</h1>");
+    </SCRIPT>
+</body>
+
+</html>
